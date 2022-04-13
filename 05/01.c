@@ -6,9 +6,9 @@ void main()  {
     printf("Enter your age:- ");
     scanf("%d",&a);
     if (0<a<50){
-        printf("Total marks is : %d",tm+60);
+        printf("Total marks is : %d",m+60);
     }
     else{
-        printf("Total Marks is : %d",tm+40);
+        printf("Total Marks is : %d",m+40);
     }
 }

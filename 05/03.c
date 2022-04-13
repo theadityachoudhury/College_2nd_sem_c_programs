@@ -21,3 +21,4 @@ int main(){
     s=(int)r*q/p;
     printf("Resistance value of s: %d",s);
     return 0;
+}
