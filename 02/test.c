@@ -7,5 +7,5 @@ int main(){
     q = inc(2)*sqr(4);
     r = inc(4+1)*sqr(2+2);
     printf("%d %d %d",p,q,r);
-    return 0
+    return 0;
 }
