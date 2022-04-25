@@ -51,7 +51,7 @@ void main(){
     int choice=0;
     do
     {    
-        printf("Choose the operation to be done from the list given below:- \n 1. Factorial Of a numebr \n 2. palindrome of a number \n 3. Odd Or Even\n 4. To exit the program\n");
+        printf("Choose the operation to be done from the list given below:- \n 1. Factorial Of a number \n 2. palindrome of a number \n 3. Odd Or Even\n 4. To exit the program\n");
         printf("Enter your chocie:- ");
         scanf("%d",&choice);
         switch (choice)
