@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int search(int a[], int in){
+int search(int a[], int in ){
     for(int i=10;i>=0;i--){
         if(in==a[i])
         return i+1;
