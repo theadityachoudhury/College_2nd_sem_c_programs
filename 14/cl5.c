@@ -1,5 +1,5 @@
 #include<stdio.h>
-int oe(int a){
+void oe(int a){
     if (a%2==0) printf("%d is an even number\n",a);
     else printf("%d is an odd number!\n",a);
 }
