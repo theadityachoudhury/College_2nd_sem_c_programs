@@ -2,7 +2,7 @@
 
 int main(){
 
-    int n[4][4],a[4][4];
+    int n[4][4],a[4][4],b[4][4];
     int i,j;
     for(i=0;i<4;i++){
         for(j=0;j<4;j++){
@@ -19,7 +19,8 @@ int main(){
     }
     for(i=0;i<4;i++){
         for(j=0;j<4;j++){
-            printf("%d ",(a[i][j]+n[i][j]));
+            b[i][j]=(a[i][j]+n[i][j]);
+            printf("%d \t",b[i][j]);
         }
         printf("\n");
     }
