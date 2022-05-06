@@ -5,5 +5,6 @@ int main(){
     printf("%d\n",&b);
     printf("%d\n",&b+1);
     printf("%d\n",*b);
-    printf("%d\n",*b+1);
+    printf("%d\n",**b+1);
+    printf("%d\n",b);
 }
