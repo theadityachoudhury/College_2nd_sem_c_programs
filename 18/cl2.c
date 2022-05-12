@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    int a[4][5], b[4]={1,2,3,4};
+    int a[4][5], b[4]={0,0,0,0};
     for(int i=0;i<4;i++){
         for(int j=0;j<5;j++)
         a[i][j]= j;

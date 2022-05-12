@@ -1,18 +1,21 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    int a[4][5];
-    for(int i=0;i<4;i++){
-        for(int j=0;j<5;j++)
-        a[i][j]= j;
+int main()
+{
+    int a[6][6];
+    for (int i = 0; i < 6; i++)
+    {
+        for (int j = 0; j < 6; j++)
+            a[i][j] = j+1;
     }
 
-    int (*p)[5];
+    int(*p)[6];
     p = a;
-    for(int i =0;i<4;i++){
-        for(int j=0;j<5;j++)
-        printf("%d\t",p[i][j]);
-    printf("\n");
+    for (int i = 0; i < 6; i++)
+    {
+        for (int j = 0; j < 6; j++)
+            printf("%d\t", p[i][j]);
+        printf("\n");
     }
     printf("");
     return 0;
