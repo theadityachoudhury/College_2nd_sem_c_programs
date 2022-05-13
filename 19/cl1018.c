@@ -1,5 +1,5 @@
 #include<stdio.h>
-void month(n){
+void month(int n){
     char string[12][10] = {{"January"},{"February"},{"March"},{"April"},{"May"},{"June"},{"July"},{"August"},{"September"},{"October"},{"November"},{"December"}};
     printf("%s",string[n-1]);
 }
