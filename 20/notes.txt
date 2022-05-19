@@ -1,0 +1,2 @@
+Address of the string is &string_name
+Address of the first character *ct[0]
