@@ -15,9 +15,12 @@ int main()
     gets(src2);
 
     for (i = 0; src1[i]; i++);
+    printf("%d",i);
         for (int j = 0; src2[j]; j++)
         {
+            printf("%d",i);
             src1[i] = src2[j];
+            printf("%s\n",src1);
             i++;
         }
     src1[i] = '\0';
