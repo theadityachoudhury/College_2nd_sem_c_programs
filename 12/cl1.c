@@ -19,7 +19,7 @@ int leader(int n){
 }
 int max(int n){
     int i,max;
-    printf("First Function");
+    printf("First Function\n");
     for(i=1;i<=n;i++){
         printf("Enter a number");
         scanf("%d",&n);

@@ -15,18 +15,18 @@ void main(){
 
 
 
-#include<stdio.h>
-void main(){
-    char s[100],d[100];
-    int i=0;
-    printf("Enter source string:- ");
-    scanf("%s",s);
-    while (s[i])
-    {
-        d[i]=s[i];
-        i++;
-    }
-    d[i]='\0';
-    printf("%s",d);
+// #include<stdio.h>
+// void main(){
+//     char s[100],d[100];
+//     int i=0;
+//     printf("Enter source string:- ");
+//     scanf("%s",s);
+//     while (s[i])
+//     {
+//         d[i]=s[i];
+//         i++;
+//     }
+//     d[i]='\0';
+//     printf("%s",d);
     
-}
+// }
